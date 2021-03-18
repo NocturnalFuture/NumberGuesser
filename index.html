@@ -10,25 +10,29 @@
 <body>
     <section>
     <h1>Number Guesser</h1>
-    <h1>Round 1</h1>
-    <h2>Target Number:<span class="targetNumber">?</span></h2>
+    <h1>Round <span class="roundNumber">1</span></h1>
+    <h1 style="text-align: center;">Target Number<span style="color:#1fffdf" class="targetNumber"><br><br>?</span></h1>
     </section>
     <div class="counterFrame">
-        <div>
-            <h3>Computer<br>
-    Score:<span class="targetScoreComputer">0</span></h3>
+        <div style="background-color: #262948;border-radius: 5px; color:white">
+            <h1>Computer<br>
+    Score:<span class="targetScoreComputer"> 0</span></h1>
+    <h1 class="computerNumberInput">0</h1>
         </div>
-        <div>
-            <h3>User<br>
-            Score:<span class="targetScoreUser">0</span></h3>
+        <div style="border: 2px solid #393f5b;border-radius: 5px;">
+            <h1>User<br>
+            Score:<span class="targetScoreUser"> 0</span></h1>
             <h1 class="userNumberInput">0</h1>
             <div class="buttonFrames">
                 <button class="incrementButton">+</button>
                 <button class="decrementButton">-</button>
             </div>
-            <button class="placeBet">Fire Off Guess</button>
+            <button class="placeBet"><h1>Fire Off Guess</h1></button>
         </div>
     </div>
+   <section>
+       <button style="color:white" class="newRound"><h1>New Round</h1></button>
+   </section>
     <script src="app.js"></script>
 </body>
 </html>
