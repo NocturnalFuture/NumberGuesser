@@ -1,22 +1,14 @@
 {
-  "name": "numberguesser",
+  "name": "numbi",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NocturnalFuture/NumberGuesser.git"
-  },
-  "author": "",
+  "author": "Adam Tomczyk",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NocturnalFuture/NumberGuesser/issues"
-  },
-  "homepage": "https://github.com/NocturnalFuture/NumberGuesser#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta2"
+    "counterup2": "^1.0.4"
   }
 }
